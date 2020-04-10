@@ -4,7 +4,7 @@
   "description": "",
   "main": "pixelated-face.js",
   "scripts": {
-    "start": "parcel faceDetection.html"
+    "build": "parcel build index.html --public-url ./"
   },
   "author": "",
   "license": "ISC",
