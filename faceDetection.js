@@ -10,11 +10,6 @@ const faceDetector = new window.FaceDetector();
 const optionsInputs = document.querySelector('.controls input[type="range"]'
 );
 
-const options = {
-  SIZE: 10,
-  SCALE: 1.35,
-};
-
 function handleOption(event) {
   const { value, name } = event.currentTarget;
   options[name] = parseFloat(value);
